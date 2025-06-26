@@ -1,0 +1,30 @@
+html {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e6f0ff;  
+  color: #223355;             
+}
+
+input, button {
+  transition: all 0.2s ease-in-out;
+  border-radius: 0.5rem;
+  border: 1px solid #a3c4f3; 
+  background-color: #ffffff;  
+  color: #8bb4a3;             
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(99, 146, 238, 0.6); 
+  border-color: #4a90e2;     
+}
+
+button:hover {
+  opacity: 0.97;
+  transform: scale(1.02);
+  background-color: #bbd4fb; 
+  color: #1a2a52;            
+}

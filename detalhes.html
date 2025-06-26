@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista Interativa</title>
+  <script>
+    tailwind.config = { darkMode: 'class' };
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="transition-colors bg-gray-100 text-black dark:bg-gray-900 dark:text-white min-h-screen">
+<body class="bg-gray-100 dark:bg-gray-900 text-black dark:text-white min-h-screen">
+
+  <div class="p-6">
+    <div class="max-w-xl mx-auto bg-white dark:bg-gray-800 p-6 rounded shadow">
+      <div class="flex justify-between items-center mb-4">
+        <h2 class="text-xl font-bold text-cyan-700 dark:text-cyan-300">Produto Compartilhado</h2>
+        <button onclick="toggleTheme()" class="bg-gray-300 dark:bg-gray-600 text-sm text-black dark:text-white px-2 py-1 rounded">Tema</button>
+      </div>
+      <div id="detalhe" class="text-gray-800 dark:text-white"></div>
+    </div>
+  </div>
+
+</body>
+<script src="script.js"></script>
+</body>
+</html>
